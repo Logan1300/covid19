@@ -1,0 +1,108 @@
+<html>
+<head>
+
+ <link rel="stylesheet" href="C:\Users\SCV\Desktop\HTML\final\code\home.css"> 
+ 
+<div class="header">
+  <h1>COVID-19</h1>
+</div>
+ 
+ <style>
+footer {
+  text-align: auto;
+  padding: 3px;
+  background-color: #333;
+  color: white;
+}
+</style>
+</head>
+
+
+<body style="background-color:#000000">
+
+  
+<div class="navbar">
+  <a href="C:\Users\SCV\Desktop\HTML\final\code\home.html">Home</a>
+  <a href="https://news.google.com/covid19/map?hl=en-IN&mid=/m/03rk0&gl=IN&ceid=IN:en">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Prevention</a>
+      <a href="#">Symtoms</a>
+      <a href="#">Treatment</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="btext"> 
+
+<p>To prevent infection and to slow transmission of COVID-19, do the following:</p>
+<ul>
+<li>Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.</li>
+<li>Maintain at least 1 metre distance between you and people coughing or sneezing.</li>
+<li>Avoid touching your face.</li>
+<li>Cover your mouth and nose when coughing or sneezing.</li>
+<li>Stay home if you feel unwell.</li>
+<li>Refrain from smoking and other activities that weaken the lungs.</li>
+<li>Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.</li>
+</ul>
+</div>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<footer>
+  
+ 
+
+<div id="footer">
+    <div class="ll"><p>Author: LOGAN</p>
+  <p><a href="mailto:hege@example.com">acb@gmail.com</a></p>
+  <p>Helpfullinks</p>
+  <ul>
+  <li><a href="url">Prevention</a></li>
+  <li><a href="url">Symptoms</a></li>
+  <li><a href="url">Treatment</a></li>
+  <li><a href="url">link text</a></li>
+  <li><a href="url">link text</a></li>
+  <li><a href="https://www.worldometers.info/coronavirus/#countries">Update of Covid Cases</a></li>
+  </ul>
+  </div>
+  
+    <div class="rr"><p>COVID-19 Helpline:
+<ul>
+<li>Helpline Number: +91-11-23978046</li>
+<li>Toll Free: 1075   </li>
+<li>Helpline Email ID: ncov2019@gov.in </li>
+</ul>
+</p>.</div>
+    <div style="clear: both"></div>
+</div>
+</footer>
+
+</body>
+</html> 
